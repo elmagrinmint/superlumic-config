@@ -3,14 +3,14 @@
   connection: local
 
   vars_files:
-    - vars/roderik-secrets.yml
+    - vars/edward-secrets.yml
 
   roles:
-    - roderik.superlumic-osx-defaults
-    - roderik.superlumic-homebrew
-    - roderik.superlumic-cli
-    - roderik.superlumic-computername
-    - roderik.superlumic-vim
+    - edward.superlumic-osx-defaults
+    - edward.superlumic-homebrew
+    - edward.superlumic-cli
+    - edward.superlumic-computername
+    - edward.superlumic-vim
     
   tasks:
     - name: add a shortcut for archive in mail
@@ -333,8 +333,8 @@
   vars:
     - computername: hydra
     - preferred_shell: zsh  
-    - git_user_name: Roderik van der Veer
-    - git_user_email: roderik@settlemint.com  
+    - git_user_name: elmagrin_mint
+    - git_user_email: edward@settlemint.com  
     - osx_defaults:
 # Appearance  
         - domain: 'NSGlobalDomain'
