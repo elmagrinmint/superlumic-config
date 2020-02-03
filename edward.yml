@@ -105,9 +105,9 @@
         - { id: '1039633667', name: 'Irvue' }
 
   vars:
-    - computername: hydra
+    - computername: edward
     - preferred_shell: zsh  
-    - git_user_name: elmagrin_ming
+    - git_user_name: elmagrin_mint
     - git_user_email: edward@settlemint.com  
     - osx_defaults:
 # Appearance  
@@ -331,7 +331,7 @@
         - { id: '1039633667', name: 'Irvue' }
 
   vars:
-    - computername: hydra
+    - computername: edward
     - preferred_shell: zsh  
     - git_user_name: elmagrin_mint
     - git_user_email: edward@settlemint.com  
